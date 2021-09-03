@@ -61,3 +61,15 @@
 // console.log(a)
 // console.log(typeof a)
 
+
+//COMPARISION
+const a= 21
+const b= 7
+const c = '21'
+
+console.log('a>b', a>b)
+console.log('a<b', a<b)
+console.log('a==b', a==b)
+console.log('a==c', a==c)
+
+console.log('a===c', a===c)
