@@ -41,15 +41,23 @@
 
 
 //OPERATORS------------------------------------------------------------------------------------------------------------------------------------
-const a=2
-const b=15
-let c=0
+// const a=2
+// const b=15
+// let c=0
 
-//ARITHMETIC OPERATORS
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a**b)
-console.log(b%a)
+//ARITHMETIC OPERATORS------
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+// console.log(a**b)
+// console.log(b%a)
+
+//ASSIGNMENT OPERATORS-------
+// let Name = "Sakshi"
+// let a=19
+// a+= Name
+
+// console.log(a)
+// console.log(typeof a)
 
