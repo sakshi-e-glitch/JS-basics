@@ -7,7 +7,7 @@
 
 
 // DATATYPES
-// Primitive data types
+// Primitive data types------------------------------------------------------------------------------------------------------------------------
 
 // var Name = "Nishtha"
 // console.log(Name)
@@ -21,13 +21,35 @@
 
 
 
-//Non primitive data types
+//Non primitive data types---------------------------------------------------------------------------------------------------------------------
 // let arr = [1,2,3,4,5]
 // arr.push("value")
 // arr.push(false)
 // console.log(arr)
 
-let Name= "Sakshi"
-let age = 19
-console.log(Name.toUpperCase)
-console.log(age. )
+// let Name= "Sakshi"
+// let age = 19
+// console.log(Name.toUpperCase)
+// console.log(age. )
+
+
+//VALUE OF CONST CAN'T BE CHANGED--------------------------------------------------------------------------------------------------------------
+// const specific_name = "Sakshi"
+// specific_name = "Piyush"
+
+// console.log(specific_name)
+
+
+//OPERATORS------------------------------------------------------------------------------------------------------------------------------------
+const a=2
+const b=15
+let c=0
+
+//ARITHMETIC OPERATORS
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a**b)
+console.log(b%a)
+
