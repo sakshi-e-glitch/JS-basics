@@ -74,30 +74,71 @@
 // console.log('a===c', a===c)
 
 //LOGICAL OPERATORS-------------------------------------------------------------------------------------------------------------------------------------------
-const a = 10
-const b = 50
+// const a = 10
+// const b = 50
 
-const c= 35
+// const c= 35
 
-console.log( c>a && c<b)
+// console.log( c>a && c<b)
 
-console.log('a == b', a == b)
-console.log('a != b', a != b)
-console.log('')
+// console.log('a == b', a == b)
+// console.log('a != b', a != b)
+// console.log('')
 
-console.log('Truth table for AND')
-console.log('')
+// console.log('Truth table for AND')
+// console.log('')
 
-console.log('false && false', false && false)
-console.log('true && true', true && true)
-console.log('true && false', true && false)
-console.log('false && true', false && true)
-console.log('')
+// console.log('false && false', false && false)
+// console.log('true && true', true && true)
+// console.log('true && false', true && false)
+// console.log('false && true', false && true)
+// console.log('')
 
-console.log('Truth table for OR')
-console.log('')
+// console.log('Truth table for OR')
+// console.log('')
 
-console.log('false|| false', false || false)
-console.log('true|| true', true || true)
-console.log('true|| false', true || false)
-console.log('false|| true', false || true)
+// console.log('false|| false', false || false)
+// console.log('true|| true', true || true)
+// console.log('true|| false', true || false)
+// console.log('false|| true', false || true)
+
+
+
+//CONDITIONAL STATEMENTS-----------------------------------------------------------------------------------------------------------------------------------
+
+// const a = 1.3
+// console.log(typeof a)
+// if(typeof a === 'float' || typeof a === 'string' || typeof a === 'boolean'){
+//     console.log("Not a number")
+// }
+
+// else
+// {   if(a===0)
+//     {
+//         console.log("Number is zero")
+//     }
+//     else if(a%2=== 0)
+//     {
+//         console.log("Number is even")
+//     }
+//     else
+//     {
+//         console.log("Number is odd")
+//     }
+// }
+
+
+//DOM---------------------------------------------------------------------------------------------------------------------------------------------------------
+// const element = document.getElementById('select_me')
+// console.log(element)
+
+// const element = document.getElementsByClassName('heading')
+// console.log(element)
+
+// const element = document.getElementsByTagName('div')
+// console.log(element)
+
+// const element =  document.querySelectorAll('.heading')
+// console.log(element)
+
+
