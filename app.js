@@ -142,3 +142,28 @@
 // console.log(element)
 
 
+// const element = document.querySelector('#select_me')
+// element.innerHTML = "This is from JS"
+// console.log(element)
+
+
+//STYLING ELEMENTS-----------------------------------------------------------------------------------------------------------------------------------------------
+// element.style.color = "cyan"
+// element.style = 'display:none'
+
+const element = document.querySelector('#select_me')
+
+//  console.log(element.classList)
+//  element.classList.add("Five")
+//  console.log(element.classList)
+//  element.classList.remove("One")
+//  console.log(element.classList)
+
+
+// const body = document.querySelector('body')
+// console.log(body.classList.toggle('dark'))
+
+const value = element.classList.contains('three')
+console.log(value)
+
+
