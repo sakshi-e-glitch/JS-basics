@@ -151,7 +151,7 @@
 // element.style.color = "cyan"
 // element.style = 'display:none'
 
-const element = document.querySelector('#select_me')
+// const element = document.querySelector('#select_me')
 
 //  console.log(element.classList)
 //  element.classList.add("Five")
@@ -163,7 +163,13 @@ const element = document.querySelector('#select_me')
 // const body = document.querySelector('body')
 // console.log(body.classList.toggle('dark'))
 
-const value = element.classList.contains('three')
-console.log(value)
+// const value = element.classList.contains('three')
+// console.log(value)
 
 
+const button  = document.querySelector('button')
+const element  = document.querySelector('body')
+
+button.addEventListener('click', () =>{
+    element.classList.toggle("dark")
+} )
