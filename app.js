@@ -166,10 +166,52 @@
 // const value = element.classList.contains('three')
 // console.log(value)
 
+//toggle-------------------------------------------------------------------------------------------------------------------------------
+// const button  = document.querySelector('button')
+// const element  = document.querySelector('body')
 
-const button  = document.querySelector('button')
-const element  = document.querySelector('body')
+// button.addEventListener('click', () =>{
+//     element.classList.toggle("dark")
+// } )
 
-button.addEventListener('click', () =>{
-    element.classList.toggle("dark")
-} )
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissor = document.querySelector('#scissor')
+
+
+//function----------------------------------------------------------------------------------------------------------------------------------------------------
+// function logName(){
+//     console.log("Nishtha")
+// }
+// logName()
+// var Name = null
+// function logName(Name="Enter your name"){
+//     console.log(Name)
+// }
+// logName()
+
+//keyword syntax--------------------------------------------------------------------------------------------------------------------------------------------
+// function logName(Name = "Jhon Doe", age = 18){
+//     console.log(Name + "You are" + age)
+// }
+// logName()
+
+// function add(a=0, b=0)
+// {
+//      return a+b
+// }
+// const result = add(112,8)
+// console.log(result)
+// console.log(add(112,8))
+
+// variable syntax----------------------------------------------------------------------------------------------------------------------------------------------
+const add = function(a = 0, b = 0){
+    return a+b
+}
+console.log(add(10,20))
+
+//arrow syntax--------------------------------------------------------------------------------------------------------------------------------------------------
+const add = (a = 0, b = 0) => {
+    return a+b
+}
+console.log(add(10,20))
