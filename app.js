@@ -1,6 +1,42 @@
-console.log("Hey this is my first piece of js code")
-console.log(123456789)
+const rock = document.querySelector('#rock')
+const paper = document.querySelector('#paper')
+const scissor = document.querySelector('#scissor')
+const board  = document.querySelector("#board")
 
-console.warn("This is a warning")
+const handler = (e) => {
+    const action  = e.target.id
 
-console.error(("This is an error"))
+//     if(action === 'rock'){
+//         board.innerHTML="Rock crushes ppr"
+//     }
+//     else if(action === 'paper'){
+//         board.innerHTML="Paper traps rock"
+//     }
+//     else if(action === 'scissor'){
+//         board.innerHTML="Scissor cuts paper"
+//     }
+//     else{
+//         board.innerHTML="Click something"
+//     }
+// }
+
+switch (action) {
+    case 'rock':
+        board.innerHTML="Rock crushes ppr"
+        break
+    
+    case "paper":
+        board.innerHTML="Paper traps rock"
+        break
+
+    case "scissor":
+        board.innerHTML="Scissor cuts paper"
+        break
+
+    default: 
+        board.innerHTML="Click something"           
+}
+}
+rock.addEventListener('click', handler)
+paper.addEventListener('click', handler)
+scissor.addEventListener('click', handler)
