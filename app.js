@@ -1,6 +1,22 @@
-console.log("Hey this is my first piece of js code")
-console.log(123456789)
+for loop--------------------------------------------------------------------------------------------------------------------------------------------
+for (var i=0; i<10; i++)
+{   var age =19
+    console.log(i)
+}
 
-console.warn("This is a warning")
+const temp = () =>{
+    var don = "dontknow"
+}
 
-console.error(("This is an error"))
+console.log(temp())
+
+while loop------------------------------------------------------------------------------------------------------------------------------------------------
+let iteration = 0
+
+while (iteration < 10){
+    console.log(iteration)
+    iteration++
+
+}
+
+
