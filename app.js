@@ -59,3 +59,6 @@ arr.forEach((element, iteration) => {
     console.log(element)
     console.log(element, iteration)
 })
+
+let age = 19
+console.log(`Your age is ${age}`)
